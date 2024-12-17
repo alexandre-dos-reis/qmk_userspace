@@ -84,7 +84,7 @@ const uint32_t PROGMEM unicode_map[] = {
 #define ACC_I_TREM UP(I_TREM_MIN, I_TREM_MAJ) // ï/Ï
 #define ACC_O_CIRC UP(O_CIRC_MIN, O_CIRC_MAJ) // ô/Ô
 #define ACC_U_GRAV UP(U_GRAV_MIN, U_GRAV_MAJ) // ù/Ù
-#define ACC_U_CIRC UP(U_CIRC_MIN, U_CIRC_MAJ) // û/Û
-#define ACC_U_TREM UP(U_TREM_MIN, U_TREM_MAJ) // ü/Ü
+#define ACC_U_CIRC UP(U_CIRC_MIN, U_CIRC_MAJ) // û/Ü
+#define ACC_U_TREM UP(U_TREM_MIN, U_TREM_MAJ) // ü/Û
 #define ACC_Y_TREM UP(Y_TREM_MIN, Y_TREM_MAJ) // ÿ/Ÿ
 #define SYMB_EURO UM(EURO_SYMB) // €
