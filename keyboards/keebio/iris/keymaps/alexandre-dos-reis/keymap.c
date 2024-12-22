@@ -31,10 +31,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
     [_ACCENTS] = LAYOUT(
-        _______,    _______,    _______,    _______,      _______,      _______,                          _______,                 _______,                 _______,      _______,             _______,             _______,
-        _______,    _______,    ACC_E_GRAV, ACC_E_CIRC,   ACC_E_AIGU,   _______,                          ACC_Y_TREM,              ACC_U_GRAV,              ACC_I_CIRC,   ACC_O_CIRC,          _______,             _______,
-        _______,    ACC_A_GRAV, SYMB_EURO,  ACC_E_TREM,   ACC_AE,       ACC_A_CIRC,                       ACC_U_TREM,              ACC_U_CIRC,              ACC_U_TREM,   ACC_I_TREM,          ACC_OE,              _______,
-        _______,    _______,    _______,    ACC_C_CED,    _______,      _______,     _______,    _______, _______,                 _______,                 _______,      _______,             XXXXXXX,             _______,
+        RGB_TOG,    _______,    _______,    _______,      _______,      _______,                          _______,                 _______,                 _______,             _______,             _______,               _______,
+        _______,    _______,    ACC_E_GRAV, ACC_E_CIRC,   ACC_E_AIGU,   _______,                          ACC_Y_TREM,              ACC_U_GRAV,              ACC_I_CIRC,          ACC_O_CIRC,          _______,               _______,
+        _______,    ACC_A_GRAV, SYMB_EURO,  ACC_E_TREM,   ACC_AE,       ACC_A_CIRC,                       ACC_U_TREM,              ACC_U_CIRC,              ACC_U_TREM,          ACC_I_TREM,          ACC_OE,                _______,
+        _______,    _______,    _______,    ACC_C_CED,    _______,      _______,     _______,    _______, _______,                 _______,                 _______,             _______,             XXXXXXX,               _______,
                                                           _______,      _______,     _______,    _______, _______,                 XXXXXXX
     )
 };
