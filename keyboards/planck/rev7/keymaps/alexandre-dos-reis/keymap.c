@@ -1,5 +1,5 @@
 #include QMK_KEYBOARD_H
-#include "accents.c"
+#include "../../../../../common/french_accents.c"
 
 enum planck_layers { _QWERTY, _SYMBOLS, _NUMBERS_AND_ARROWS, _ACCENTS  };
 
