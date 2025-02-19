@@ -1,7 +1,4 @@
 #include QMK_KEYBOARD_H
-#if __has_include("keymap.h")
-#    include "keymap.h"
-#endif
 
 #include "../../../../../../../common/french_accents.c"
 
@@ -36,6 +33,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 
-#ifdef OTHER_KEYMAP_C
-#    include OTHER_KEYMAP_C
-#endif // OTHER_KEYMAP_C
+/* Combos */
+/* LEFT_CONTROL + SINGLE_QUOTE = ESCAPE */
+const uint16_t PROGMEM esc_combo[] = {KC_LCTL, KC_QUOT, COMBO_END};
+
+combo_t key_combos[] = {
+  COMBO(esc_combo, KC_ESC),
+};
